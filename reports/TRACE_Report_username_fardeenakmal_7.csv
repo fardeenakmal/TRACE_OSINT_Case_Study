@@ -1,0 +1,19 @@
+TRACE OSINT INVESTIGATION REPORT
+Student,Fardeen Akmal (Roll No: 2)
+Guide,Akanksha Thakare
+Institute,"G.V. Acharya Institute of Engineering and Technology, University of Mumbai"
+Target,fardeenakmal
+Type,username
+Timestamp,2026-10-22 16:55:32
+
+Source,Category,URL,Status,Verified,Response Time (ms),Detail
+GitHub,Developer / Code,https://github.com/fardeenakmal,FOUND,True,614,Profile page exists and is publicly accessible
+GitLab,Developer / DevOps,https://gitlab.com/fardeenakmal,NOT_FOUND,False,639,Redirected to login (User not registered)
+DockerHub,Containers / Tech,https://hub.docker.com/v2/users/fardeenakmal,NOT_FOUND,False,628,Profile does not exist (HTTP 404)
+Dev.to,Developer Community,https://dev.to/fardeenakmal,NOT_FOUND,False,622,Profile does not exist (HTTP 404)
+HackerNews,Tech Forum,https://news.ycombinator.com/user?id=fardeenakmal,NOT_FOUND,False,955,Profile inactive or not found (HTTP 419)
+Reddit,Social / Forums,https://www.reddit.com/user/fardeenakmal/about.json,INCONCLUSIVE,False,959,Platform rate limited / Cloudflare challenge (HTTP 403)
+Gravatar,Avatar / Identity,https://en.gravatar.com/fardeenakmal.json,NOT_FOUND,False,1264,Profile does not exist (HTTP 404)
+Keybase,Cryptography / Identity,https://keybase.io/fardeenakmal,NOT_FOUND,False,789,Profile does not exist (HTTP 404)
+Medium,Blogging / Publishing,https://medium.com/@fardeenakmal,INCONCLUSIVE,False,520,Access restricted or rate limited (HTTP 403)
+Pinterest,Media / Visual,https://www.pinterest.com/fardeenakmal/,CHECK_FAILED,False,4008,Connection timed out after 4.0s
